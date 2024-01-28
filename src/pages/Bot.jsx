@@ -10,7 +10,7 @@ import Chat from '../components/Chat.jsx';
 import info from '../assets/info.svg';
 import InfoModal from '../components/infoModal.jsx';
 import maker from '../assets/maker.svg';
-import MakerModal from '../components/makerModal.jsx';
+import MakerModal from '../components/MakerModal.jsx';
 import { useEffect } from 'react';
 
 
