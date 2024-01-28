@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import Ironman from '../components/Ironman.jsx';
 import { OrbitControls } from '@react-three/drei';
 import '../styles/fonts.css';
-import Modal from '../components/MOdal.jsx';
+import Modal from '../components/Modal.jsx';
 import { useState } from 'react';
 import Chat from '../components/Chat.jsx';
 import info from '../assets/info.svg';
