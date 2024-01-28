@@ -1,0 +1,75 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-message {
+  background-color: rgba(0, 255, 135, 1);
+  border-radius: 10px;
+  padding: 8px;
+  align-self: flex-end;
+}
+
+.ai-message {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  padding: 8px;
+  align-self: flex-start;
+}
+
+#user-input-container {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+}
+
+#user-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px;
+  background-color: #00fbff;
+  color: #201e1e;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+  width: 15%;
+}
+
+textarea {
+  resize: none; /* Disable resizing */
+  height: 80px; /* Set initial height, adjust as needed */
+   /* Enable vertical scrolling */
+  border: 5px solid #00fbff; /* Add border for clarity */
+  padding: 8px; /* Add padding for better appearance */
+  font-size: 14px; /* Set font size, adjust as needed */
+  line-height: 1.4; /* Set line height, adjust as needed */
+  width: 100%;
+  outline: none;
+  height: 20px;
+  border-width: 2px;
+  width: 80%;
+  background-color: #575959;
+  color: white;
+ 
+}
+
+/* Optional: Add some styling for focus state */
+textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+}
+textarea ::-webkit-scrollbar{
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
